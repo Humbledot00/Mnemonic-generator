@@ -14,7 +14,7 @@ function App() {
 
   const handleGenerate = async () => {
   try {
-    const response = await axios.post('https://bodhi-server.onrender.com/generate', { 
+    const response = await axios.post('https://bodhi-server-1.onrender.com/generate', { 
       input_text: inputText,
       model: selectedModel, 
     });
